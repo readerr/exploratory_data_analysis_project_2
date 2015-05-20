@@ -28,7 +28,7 @@ plot <- ggplot( subset_NEI_vehicles, aes( as.factor(year), PM25) )
 type <- geom_bar(stat = 'identity')
 grid <- facet_grid(. ~ city)
 # axis <- scale_y_continuous( labels = waiver(), limits = c(0, 400))
-theme <- theme( plot.margin = unit(c(1,1,1,1), 'cm'), plot.title = element_text(lineheight = 1.3, face = 'bold', vjust=2), axis.text.x = element_text(angle = 45, hjust = 1) ) 
+theme <- theme( plot.margin = unit(c(1,1,1,1), 'cm'), plot.title = element_text(lineheight = 1.1, face = 'bold', vjust=2), axis.text.x = element_text(angle = 45, hjust = 1) ) 
 labels <- labs( x = 'year', y = 'PM25 Emissions Vehicles', title = 'PM25 Emissions from Vehicles,\nBaltimore City, MD vs Los Angeles County, CA ')
 
 render <- plot + type + grid + theme + labels
