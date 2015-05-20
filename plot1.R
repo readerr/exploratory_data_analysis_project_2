@@ -22,7 +22,7 @@ png(filename = 'plot1.png', width = 550, height = 550)
                  ylab = 'Total PM25 emissions',
                  yaxt = "n",
                  cex.axis = 0.75, 
-                 cex.lab = 0.75,
+                 cex.lab = 1.05,
                  col.axis = 'black',
                  col = 'gray',
                  main = "Total PM25 Emissions 1999-2008, \n United States"
