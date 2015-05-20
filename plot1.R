@@ -21,12 +21,11 @@ png(filename = 'plot1.png', width = 550, height = 550)
                  xlab = 'Year', 
                  ylab = 'Total PM25 emissions',
                  yaxt = "n",
-                 cex.axis = 1.5, 
-                 cex.lab = 1.25,
+                 cex.axis = 0.75, 
+                 cex.lab = 0.75,
                  col.axis = 'black',
                  col = 'gray',
-                 main = "Total Emissions of PM25 per Year (All          
-                 sources)"
+                 main = "Total PM25 Emissions 1999-2008, \n United States"
                  )
         
         
